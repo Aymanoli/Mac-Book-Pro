@@ -1,0 +1,31 @@
+body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-table tr{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.pricing-table tr:nth-child(4){
+    border-bottom: 2px solid black;
+}
+.pricing-table tr:last-child{
+    border: none;
+}
+.pricing-table tr td{
+    padding: 5px 15px;
+}
+.pricing-table tr td:first-child{
+    width: 250px;
+}
+
+.config-options{
+    transition: 0.2s ease-in-out;
+}
+.config-options:hover{
+    /* transition: 0s; */
+    background:rgba(0, 0, 0, 0.7);
+    color: whitesmoke;
+}
